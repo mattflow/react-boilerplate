@@ -4,7 +4,8 @@
   "description": "This is a very minimal boilerplate that can be used to get started on a react application.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --content-base dist --inline --hot --open"
   },
   "repository": {
     "type": "git",
