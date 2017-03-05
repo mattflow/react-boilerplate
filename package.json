@@ -1,25 +1,10 @@
 {
-  "name": "react-boilerplate",
-  "version": "1.0.0",
-  "description": "This is a very minimal boilerplate that can be used to get started on a react application.",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "setup": "chmod +x ./scripts/setup.sh && ./scripts/setup.sh",
     "build": "webpack",
     "start": "webpack-dev-server --content-base dist --inline --hot --open"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mattflow/react-boilerplate.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mattflow/react-boilerplate/issues"
-  },
-  "homepage": "https://github.com/mattflow/react-boilerplate#readme",
   "devDependencies": {
     "babel-cli": "^6.23.0",
     "babel-core": "^6.23.1",
